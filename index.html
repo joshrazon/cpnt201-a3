@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/style.css">
+  <script src="./public/main.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <svg viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Circle Background -->
+    <circle class="circle" id="circle" cx="150" cy="150" r="150" fill="#00EBDD"/>
+    <g clip-path="url(#clip0)" fill="#000">
+
+      <!-- Bulb outline -->
+      <path id="bulb" d="M214.2 48.3a85.4 85.4 0 00-128.1 0A84.7 84.7 0 0065 104.7a85 85 0 0028.5 63.6c9 8 12.7 15.6 12.7 25.7v10c-.1 5.3 4.2 9.7 9.5 9.8 5.4 0 9.7-4.3 9.7-9.6l.1-10c0-15.8-6-28.6-19.2-40.3a65.9 65.9 0 1193.5-92.8 66 66 0 01-5.7 92.8 50.9 50.9 0 00-19 39.7l-.1 10.5c0 5.3 4.2 9.7 9.5 9.8h.1c5.3 0 9.6-4.3 9.7-9.6v-10.5-.2c.1-10 3.8-17.5 12.6-25.4a85 85 0 0028.4-63.6 85 85 0 00-21-56.3zM184.6 229.9h-68.8a9.7 9.7 0 00-9.7 9.6c0 5.3 4.4 9.7 9.7 9.7h68.8a9.7 9.7 0 000-19.3zM168.7 261.8h-37.1a9.7 9.7 0 00-9.7 9.6c0 5.3 4.4 9.6 9.7 9.6h37.1c5.3 0 9.6-4.3 9.6-9.6s-4.3-9.6-9.6-9.6z"/>
+
+      <!-- Left fillament -->
+      <path class="fillament" id="fillament" d="M157 132.4l-26.7-26.7a9.7 9.7 0 00-13.6 0 9.7 9.7 0 000 13.7l23.8 23.8v61a9.7 9.7 0 0019.3 0v-64.3c0-3.5-1.2-6-2.8-7.5z"/>
+
+      <!-- Right fillament -->
+      <path class="fillament" id="fillament" d="M141.3 132.3l24-26.6a8.1 8.1 0 0112.3 0c3.4 3.7 3.4 9.8 0 13.6l-21.5 23.8v61c0 5.2-3.9 9.6-8.7 9.6-4.7 0-8.7-4.4-8.7-9.7v-64.2c0-3.5 1.2-5.9 2.6-7.5z"/>
+    </g>
+    <defs>
+      <clipPath id="clip0">
+        <path fill="#fff" transform="translate(19.3 19.3)" d="M0 0h261.8v261.8H0z"/>
+      </clipPath>
+    </defs>
+  </svg>
+  
+  <button>Change Color!</button>
+</body>
+</html>
